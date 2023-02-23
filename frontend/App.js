@@ -7,7 +7,7 @@ import { geceModuAc } from "./hooks/geceModuAc";
 
 const App = () => {
   const [coinData, setCoinData] = useState([]);
-  const [geceModu, setGeceModu] = geceModuAc("");
+  const [geceModu, setGeceModu] = geceModuAc(false);
 
   useEffect(() => {
     axios
